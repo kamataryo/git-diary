@@ -1,0 +1,30 @@
+{
+  "name": "git-diary",
+  "version": "0.0.1",
+  "description": "pretty formatter on a day for `git log`.",
+  "bin": "git-diary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : {
+    "node" : ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamataRyo/git-diary.git"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "format"
+  ],
+  "author": "kamataryo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KamataRyo/git-diary/issues"
+  },
+  "homepage": "https://github.com/KamataRyo/git-diary#readme",
+  "dependencies": {
+    "moment": "^2.17.1"
+  }
+}
